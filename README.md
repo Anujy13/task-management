@@ -1,12 +1,35 @@
-# React + Vite
+# Task Management React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Simple and efficient Task management application built with react. Admin can add tasks for the employees and they can update the status of it.
+Initially it was developed on the localStorage for the data instead of the backend.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- We generally have two users- Admin and Employees
+- Admin can Add Employees
+- Admin Can Add tasks for employees which will be displayed on employees dashboard
+- Employees can update the status of the task
+- Login / Logout features are handled very carefully.
+  
+## 🛠️ Tech Stack
+-⚛️ React (with Hooks)
+- 🧰 React Context
+- 💅  Tailwind CSS / Styled-components (UI)
+- 🗂️ LocalStorage (data persistence)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation
+
+1. **Clone the repo:**
+
+git clone https://github.com/Anujy13/task-management.git
+
+2. Install dependencies
+
+   npm install
+
+3. npm start
+
+
+✨ Screenshots:-
+
